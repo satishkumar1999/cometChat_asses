@@ -1,27 +1,3 @@
-// import React from 'react';
-// import ReactDOM from 'react-dom/client';
-// import './index.css';
-// import App from './App';
-// import reportWebVitals from './reportWebVitals';
-
-// const root = ReactDOM.createRoot(
-//   document.getElementById('root') as HTMLElement
-// );
-// root.render(
-//   <React.StrictMode>
-//     <App />
-//   </React.StrictMode>
-// );
-
-// // If you want to start measuring performance in your app, pass a function
-// // to log results (for example: reportWebVitals(console.log))
-// // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-// reportWebVitals();
-
-
-// .....................................................
-
-
 
 import React from "react";
 import ReactDOM from "react-dom/client";
@@ -34,9 +10,9 @@ import { setupLocalization } from "./CometChat/utils/utils";
 import { BuilderSettingsProvider } from "./CometChat/context/BuilderSettingsContext";
 
 export const COMETCHAT_CONSTANTS = {
-  APP_ID: "2746756e527c3032", // Replace with your App ID
-  REGION: "in", // Replace with your App Region
-  AUTH_KEY: "2f65e4533fbe3ccde706663eb4e08e4e23be5824", // Replace with your Auth Key or leave blank if you are authenticating using Auth Token
+  APP_ID: "2746756e527c3032", 
+  REGION: "in", 
+  AUTH_KEY: "2f65e4533fbe3ccde706663eb4e08e4e23be5824",
 };
 
 const uiKitSettings = new UIKitSettingsBuilder()
